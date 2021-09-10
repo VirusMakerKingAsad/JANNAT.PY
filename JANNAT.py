@@ -143,14 +143,14 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m[#] \x1b[0;36m Enter Password\x1b[1;92m➤ ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username  #Rana MZ
+            print "Logged in successfully as " + username  #ASAD ANSAARI
             loop = 'false'
         else:
             print "Wrong password!"
-            os.system('xdg-open https://youtu.be/jSK1Lk1zllY')
+            os.system('xdg-open https://www.youtube.com/channel/UCpfLeE7qhqT73fQ9DQz9O5g')
     else:
         print "Wrong username!"
-        os.system('xdg-open https://youtu.be/jSK1Lk1zllY')
+        os.system('xdg-open https://www.youtube.com/channel/UCpfLeE7qhqT73fQ9DQz9O5g')
 
 ##### LICENSE #####
 #=================#
